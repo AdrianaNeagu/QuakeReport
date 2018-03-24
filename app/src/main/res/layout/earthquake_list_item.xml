@@ -13,11 +13,18 @@
         tools:text="2.3" />
 
     <TextView
-        android:id="@+id/location"
-        android:layout_width="wrap_content"
+        android:id="@+id/location_offset"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        tools:text="New York, USA"/>
+        tools:text="30km S of" />
+
+    <TextView
+        android:id="@+id/primary_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="San Francisco, CA" />
 
     <TextView
         android:id="@+id/date"
@@ -25,5 +32,12 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         tools:text="2018-02-10"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="3:00 PM" />
 
 </LinearLayout>
